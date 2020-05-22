@@ -9,15 +9,13 @@ const App = () => {
 	return (
 		<Route>
 			<div>
-				<nav>
-					<NavLink className='navA' to='/'>
-						Home
-					</NavLink>
-					<NavLink className='navA' to='/pizza'>
-						Pizza
-					</NavLink>
-				</nav>
-
+				<section className='nav'>
+					<h3>Lambda Eats</h3>
+					<section>
+						<NavLink to='/'>Home</NavLink>
+						<NavLink to='/'>Help</NavLink>
+					</section>
+				</section>
 				<Switch>
 					<Route exact path='/'>
 						<Home />

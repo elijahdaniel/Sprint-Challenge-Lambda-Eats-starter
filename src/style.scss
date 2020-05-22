@@ -16,4 +16,27 @@ body {
 			font-weight: 600;
 		}
 	}
+
+	h3 {
+		font-weight: 400;
+		color: red;
+	}
+}
+
+.header {
+	border: 1px solid black;
+	width: 80%;
+	height: 200px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.pizzaLink {
+		border: 1px solid black;
+		padding: 5px 30px;
+		width: 70px;
+		margin: 0 auto;
+	}
 }
